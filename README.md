@@ -1,3 +1,14 @@
+Create part entry
+API to register raw and assembled parts
+
+[POST] /api/part
+
+Request to register a raw part:
+
+{
+    "name": "Bolt",
+    "type": "RAW"
+}
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
