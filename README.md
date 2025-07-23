@@ -9,6 +9,26 @@ Request to register a raw part:
     "name": "Bolt",
     "type": "RAW"
 }
+
+Request to register an assembled part:
+
+{
+    "name": "Gearbox",
+    "type": "ASSEMBLED",
+    "parts": [ 
+         {"id": "bolt-1", "quantity": 4},
+	     {"id": "shaft-1", "quantity": 2}
+    ]
+}
+
+[POST] /api/part/<partId>
+
+Request:
+
+{
+    "quantity": 4
+}
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
