@@ -20,6 +20,8 @@ Request to register an assembled part:
 	     {"id": "shaft-1", "quantity": 2}
     ]
 }
+
+
 Add parts to inventory.
 [POST] /api/part/partId
 
